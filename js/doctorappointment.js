@@ -1,5 +1,5 @@
-$(document).ready(function () {
-    document.getElementById("inputform").style.display = "none"; 
+document.getElementById("inputform").style.display = "none"; 
+$(document).ready(function () {  
   var firebaseConfig = (function () {
     var json = null;
     $.ajax({
