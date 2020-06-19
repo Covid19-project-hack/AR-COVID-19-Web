@@ -1,5 +1,5 @@
-$(document).ready(function () {
-    document.getElementById("inputform").style.display = "none"; 
+document.getElementById("inputform").style.display = "none";
+$(document).ready(function () { 
   var firebaseConfig = (function () {
     var json = null;
     $.ajax({
@@ -21,7 +21,7 @@ $(document).ready(function () {
       console.log(firebaseUser.email);
     } else {
       console.log("not logged in");
-      window.location = "signinwithphno.html";
+      // window.location = "signinwithphno.html";
     }
   });
    
